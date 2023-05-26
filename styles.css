@@ -57,6 +57,7 @@ body {
 }
 .content-block {
     display: flex;
+    border-radius: 20px;
     justify-content: space-between;
     padding: 20px;
     width: 80%;
@@ -116,6 +117,30 @@ figcaption {
     text-align: center;
 }
 
+.myButton {
+	background:linear-gradient(90deg, #f80630 5%, #db16e9 35%, #542cff 80%, #00e5ff 100%);
+	background-color: black;
+	border-radius:42px;
+	border:1px solid white;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	padding:12px 41px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px black;
+}
+.myButton:hover {
+	background:linear-gradient(90deg, #ad0421 5%, #800e88 35%, #331c9c 80%, #007a88 100%);
+    border:1px solid white;
+	background-color:black;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
 .footer {
     display: flex;
     justify-content: space-between;
@@ -126,7 +151,7 @@ figcaption {
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 98%;
+    width: 100%;
     flex-shrink: 0; /* Add this line */
 }
 
@@ -160,7 +185,7 @@ a:link, a:visited {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 995px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
