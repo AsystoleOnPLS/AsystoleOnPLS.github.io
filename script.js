@@ -35,6 +35,13 @@ window.addEventListener('DOMContentLoaded', function() {
         'memes/ASY16.jpg',
         'memes/ASY17.jpg',
         'memes/ASY18.jpg',
+        'memes/ASY19.gif',
+        'memes/ASY20.gif',
+        'memes/ASY21.gif',
+        'memes/ASY22.gif',
+        'memes/ASY23.gif',
+        'memes/ASY24.gif',
+        'memes/ASY25.gif',
         // Add more filenames as needed
     ];
 
